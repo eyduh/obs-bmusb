@@ -49,7 +49,7 @@ If you encounter an error like so:
 `Package libusb was not found` you might need to use pkg-config to add the path to the environment:
 
 ```
-$ locate libusb-1.0.pc
+locate libusb-1.0.pc
 /path/to/libusb-1.0.pc
 pkg-config --cflags --libs /path/to/libusb-1.0.pc
 ```
